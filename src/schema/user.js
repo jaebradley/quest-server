@@ -10,5 +10,6 @@ export default gql`
   type User {
     id: ID!
     emailAddress: String!
+    quests: [UserQuest!]
   }
 `;
